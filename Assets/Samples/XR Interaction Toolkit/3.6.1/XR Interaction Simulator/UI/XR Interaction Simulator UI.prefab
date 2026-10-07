@@ -35238,7 +35238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_HMDPanel: {fileID: 1495162503205807742}
-  m_MirrorModePanel: {fileID: 3210289541458989383}
   m_RightHandPanel: {fileID: 6170077855614272475}
   m_LeftHandPanel: {fileID: 6631339706381068503}
   m_RightControllerPanel: {fileID: 3292115020647013831}
