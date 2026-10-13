@@ -32,6 +32,15 @@ __pycache__/
 # Visual Studio cache directory
 .vs/
 
+# Local editor preferences and workspace layouts
+/.vscode/
+/.idea/
+*.code-workspace
+*.DotSettings.user
+
+# Keep ProjectSettings/ and Assets/**/Settings tracked: they configure
+# shared rendering, input, XR support, and builds, not personal preferences.
+
 # Gradle cache directory
 .gradle/
 
@@ -41,6 +50,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -67,6 +77,16 @@ sysinfo.txt
 *.unitypackage
 *.unitypackage.meta
 *.app
+
+# Unity build debugging output (regenerated for each build)
+/*_BurstDebugInformation_DoNotShip/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# Generated Unity performance-test build metadata
+/Assets/Resources/PerformanceTestRunInfo.json
+/Assets/Resources/PerformanceTestRunInfo.json.meta
+/Assets/Resources/PerformanceTestRunSettings.json
+/Assets/Resources/PerformanceTestRunSettings.json.meta
 
 # Crashlytics generated file
 crashlytics-build.properties
