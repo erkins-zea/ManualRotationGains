@@ -3,6 +3,10 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
+/Backups/
+/.plastic/
+__pycache__/
+*.pyc
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
