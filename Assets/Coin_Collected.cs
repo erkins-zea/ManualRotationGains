@@ -2,10 +2,16 @@ using UnityEngine;
 
 public class Coin_Collected : MonoBehaviour
 {
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void OnTriggerEnter (Collider other)
     {
         Destroy(gameObject);
-        //PlaySFX(coinCollect); 
-        // <- establish audio manager so there can be coin collect sound effects
+        audioManager.PlaySFX(audioManager.coinCollectSound); 
     }
 }
